@@ -1,0 +1,18 @@
+.ZSample_Animation {
+
+  @keyframes pulsing-heart {
+    0% { transform: none; }
+    50% { transform: scale(1.4) }
+    100% { transform: none; }
+  }
+
+  .heart {
+    font-size: 10rem;
+    color: #ff0000;
+  }
+
+  .heart:hover {
+    animation: pulsing-heart .5s infinite;
+    transform-origin: center;
+  }
+}
