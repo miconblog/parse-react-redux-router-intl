@@ -1,4 +1,4 @@
-# [![Build Status](https://secure.travis-ci.org/miconblog/parse-react-redux-router-intl.png?branch=master)](https://travis-ci.org/miconblog/parse-react-redux-router-intl) [![Dependency Status](https://david-dm.org/miconblog/parse-react-redux-router-intl.svg)](https://david-dm.org/miconblog/parse-react-redux-router-intl) [![devDependency Status](https://david-dm.org/miconblog/parse-react-redux-router-intl/dev-status.svg)](https://david-dm.org/miconblog/parse-react-redux-router-intl#info=devDependencies)
+# [![Build Status](https://secure.travis-ci.org/miconblog/parse-react-redux-router-intl.png?branch=master)](https://travis-ci.org/miconblog/parse-react-redux-router-intl) [![Dependency Status](https://david-dm.org/miconblog/parse-react-redux-router-intl/status.svg)](https://david-dm.org/miconblog/parse-react-redux-router-intl) [![devDependency Status](https://david-dm.org/miconblog/parse-react-redux-router-intl/dev-status.svg)](https://david-dm.org/miconblog/parse-react-redux-router-intl#info=devDependencies)
 
 # [ParseSever][1] + [React][2] + [Redux][3] + [Router][4] + [Intl][5] + [Antd][6]
 
