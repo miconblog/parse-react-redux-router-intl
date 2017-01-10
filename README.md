@@ -1,14 +1,21 @@
-# ParseSever + React + Redux + Router
+# [![Build Status](https://secure.travis-ci.org/miconblog/parse-react-redux-router-intl.png?branch=master)](https://travis-ci.org/miconblog/parse-react-redux-router-intl) [![Dependency Status](https://david-dm.org/miconblog/parse-react-redux-router-intl.svg)](https://david-dm.org/miconblog/parse-react-redux-router-intl) [![devDependency Status](https://david-dm.org/miconblog/parse-react-redux-router-intl/dev-status.svg)](https://david-dm.org/miconblog/parse-react-redux-router-intl#info=devDependencies)
+
+# [ParseSever][1] + [React][2] + [Redux][3] + [Router][4] + [Intl][5] + [Antd][6]
 
 ## Installation
     $> npm install
     
 ## Development with webpack devServer
     $> npm start
+ 
+If you want to save your state to your ParseServer, you have to run it.
+
+    $> cd parse-server
+    $> node index.js
     
     
-## Production with parse-server
-#### 1. Build your react code and deploy to your parse-server/    
+## Production with ParseServer
+#### 1. Build your react code and deploy to your ParseServer    
 
     $> npm run build
     
@@ -34,6 +41,17 @@ if you like [HomeBrew](http://brew.sh/), it is only for MacOS
     - public/           --- For webpack devServer static root
 
 
+## How to Contribute
+- whatever you want, give me your PR
+
+## Documentation
+
+- [Coding Convention - 코딩 규칙](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/quick-start.md)
+- [Webpack Config - 웹팩 설정하기](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/webpack.md)
+- [About the structure of project  - 프로젝트 구조에 대해서](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/project-structure.md)
+- [How to connect Facebook - 페이스북 연동하기](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/how-to-connect-facebook.md)
+
+
 
 ## Reference
 
@@ -42,3 +60,11 @@ https://github.com/mxstbr/react-boilerplate
 
 2. async router
 http://mxstbr.blog/2016/01/react-apps-with-pages/
+
+
+[1]:[https://github.com/ParsePlatform/parse-server]
+[2]:[https://github.com/facebook/react]
+[3]:[http://redux.js.org/]
+[4]:[https://github.com/ReactTraining/react-router]
+[5]:[https://github.com/yahoo/react-intl]
+[6]:[https://ant.design/docs/react/introduce]
