@@ -1,7 +1,5 @@
-import './ZSample.less'
-import React, { Component, PropTypes } from 'react'
-import { browserHistory } from 'react-router'
-import { updateAppState } from '../../actions'
+import './ZSample.less';
+import React, { Component, PropTypes } from 'react';
 
 export default class ZSample extends Component {
 

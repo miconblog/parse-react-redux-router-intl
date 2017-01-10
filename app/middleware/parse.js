@@ -1,18 +1,18 @@
-import { Schema, arrayOf, normalize } from 'normalizr';
+import { schema, normalize } from 'normalizr';
 import Parse from 'parse';
 import ES6Symbol from 'es6-symbol';
 
-const userSchema      = new Schema('users',    { idAttribute: 'objectId' });
-const postSchema      = new Schema('Post',     { idAttribute: 'objectId' });
-const activitySchema  = new Schema('Activity', { idAttribute: 'objectId' });
+const userSchema      = new schema.Entity('User',     { idAttribute: 'objectId' });
+const postSchema      = new schema.Entity('Post',     { idAttribute: 'objectId' });
+const activitySchema  = new schema.Entity('Activity', { idAttribute: 'objectId' });
 
 export const Schemas = {
   USER: userSchema,
-  USER_ARRAY: arrayOf(userSchema),
+  USER_ARRAY: new schema.Array(userSchema),
   POST: postSchema,
-  POST_ARRAY: arrayOf(postSchema),
+  POST_ARRAY: new schema.Array(postSchema),
   ACTIVITY: activitySchema,
-  ACTIVITY_ARRAY: arrayOf(activitySchema)
+  ACTIVITY_ARRAY: new schema.Array(activitySchema)
 };
 
 const PARSE_CLASS = {

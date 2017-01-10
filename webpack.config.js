@@ -10,7 +10,6 @@ var pkg = require('./package.json');
 var Clean = require('clean-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
-var WebpackOnBuildPlugin = require('on-build-webpack');
 
 const TARGET = process.env.npm_lifecycle_event;
 const PATHS = {
@@ -267,21 +266,6 @@ if(TARGET === 'build-test') {
         compress: {
           warnings: false
         }
-      }),
-      new WebpackOnBuildPlugin(function(stats) {
-
-        var uglified = uglify.minify([
-          './parse-server/public/app/vendor.js'
-        ]);
-
-        fs.writeFile('./parse-server/public/app/vendor.all.js', uglified.code, function (err){
-          if(err) {
-            console.log(err);
-          } else {
-            console.log("Script generated and saved:", 'vendor.all.js');
-          }      
-        });
-
       })
     ]
   });
