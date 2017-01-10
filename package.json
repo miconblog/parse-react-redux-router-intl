@@ -1,7 +1,8 @@
 {
   "name": "parse-react-redux-router-prj",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate for ParseSever + React + Redux + Router + Intl + Antd",
+  "keywords": ["react", "boilerplate", "parse-server", "react-router", "react-intl"],
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress",
@@ -12,7 +13,19 @@
     "extract-intl": "babel-node --presets latest,stage-0 -- ./internals/scripts/extract-intl.js",
     "test": "BABEL_DISABLE_CACHE=1 NODE_ENV=test jest"
   },
-  "author": "miconblog@gmail.com",
+  "author": {
+    "name": "Byungdae Sohn",
+    "email": "miconblog@gmail.com",
+    "url": "http://miconblog.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/miconblog/parse-react-redux-router-intl/issues",
+    "email": "miconblog@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://miconblog@github.com/miconblog/parse-react-redux-router-intl.git"
+  },
   "license": "MIT",
   "babel": {
     "presets": [
@@ -88,5 +101,7 @@
     "webpack-dev-server": "^1.16.2",
     "webpack-hot-middleware": "^2.15.0",
     "webpack-merge": "^2.3.1"
-  }
+  },
+  "engineStrict" : true,
+  "engines" : { "node" : ">6.9.0" }
 }

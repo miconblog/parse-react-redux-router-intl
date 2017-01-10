@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - '0.10'
+  - '6.9.4'
 before_install:
   - currentfolder=${PWD##*/}
   - if [ "$currentfolder" != 'parse-react-redux-router-intl' ]; then cd .. && eval "mv $currentfolder parse-react-redux-router-intl" && cd parse-react-redux-router-intl; fi
