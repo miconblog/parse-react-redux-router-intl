@@ -27,10 +27,10 @@ if you like [HomeBrew](http://brew.sh/), it is only for MacOS
     $> mongod --config /usr/local/etc/mongod.conf 
 
 
-#### 3. Run your parse-server
+#### 3. Run your ParseServer
 
     $> cd parse-server
-    $> node routes.js 
+    $> node index.js 
     
     
 
@@ -46,9 +46,9 @@ if you like [HomeBrew](http://brew.sh/), it is only for MacOS
 
 ## Documentation
 
+- [Project Structure - 프로젝트 구조](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/project-structure.md)
 - [Coding Convention - 코딩 규칙](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/quick-start.md)
 - [Webpack Config - 웹팩 설정하기](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/webpack.md)
-- [About the structure of project  - 프로젝트 구조에 대해서](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/project-structure.md)
 - [How to connect Facebook - 페이스북 연동하기](https://github.com/miconblog/parse-react-redux-router-intl/blob/master/docs/how-to-connect-facebook.md)
 
 
